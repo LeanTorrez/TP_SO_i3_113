@@ -17,3 +17,10 @@ git merge origin/Torrez
 git add . 
 git commit -m "marge Torrez"
 git push origin suarez 
+
+g-
+git checkout Torrez
+git pull
+git add . 
+git commit -m "Punto 8 Alfa"
+git push
