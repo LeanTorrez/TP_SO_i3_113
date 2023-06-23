@@ -17,6 +17,7 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:6353 (6.3 KB)  TX bytes:6353 (6.3 KB)
 
+<<<<<<< Updated upstream
 Suarez Brian Alan 19:27
 
 enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -26,13 +27,34 @@ enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         RX packets 11636  bytes 13633874 (13.6 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 5442  bytes 595046 (595.0 KB)
+=======
+Maximiliano Cesa - 19:32
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::12f4:e93b:553d:c5c6  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:c7:e1:36  txqueuelen 1000  (Ethernet)
+        RX packets 1  bytes 590 (590.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 26  bytes 3282 (3.2 KiB)
+>>>>>>> Stashed changes
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
+<<<<<<< Updated upstream
         RX packets 432  bytes 48499 (48.4 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 432  bytes 48499 (48.4 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+=======
+        RX packets 4  bytes 240 (240.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 240 (240.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+>>>>>>> Stashed changes
