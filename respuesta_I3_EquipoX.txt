@@ -1,0 +1,6 @@
+a-El main branch queda actualizado con todos los cambios que se realizaron en la branch suarez y Torrez.
+b-Desde git, ejecuto el comando git checkout <nombre de la rama> de esta manera cambio de rama y  
+veo reflejado los cambios en los archivos de la carpeta y si existen cambios git pull origin <nombre de la rama> para traer los cambios.
+c- git chekcout main -> cambio de rama para posicionarme en el main
+git merge suarez -> ejecuto el merge de mi rama main con la de suarez
+git push -> pusheo los cambios al main
