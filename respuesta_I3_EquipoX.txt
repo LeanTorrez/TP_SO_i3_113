@@ -4,3 +4,16 @@ veo reflejado los cambios en los archivos de la carpeta y si existen cambios git
 c- git chekcout main -> cambio de rama para posicionarme en el main
 git merge suarez -> ejecuto el merge de mi rama main con la de suarez
 git push -> pusheo los cambios al main
+
+
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+La rama de GAMMA queda actualizada con los ultimos cambios, mientras que la rama de BETA queda desactualizada solo con los datos de torrez.
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+Con temas referido al marge, no tuvimos problemas.
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+git checkout suarez
+git fetch origin Torrez
+git merge origin/Torrez
+git add . 
+git commit -m "marge Torrez"
+git push origin suarez 
